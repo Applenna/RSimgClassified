@@ -12,7 +12,7 @@ end
 imwrite(class_img,'class.tif');
 % output images are pngs
 Output_path='D:\work\[code]change_to_gray\';
-for i=1:8
+for i=1:num
      I=(gt==i-1);
      imwrite(I,[Output_path,'imc',int2str(i),'.png']);
 end
