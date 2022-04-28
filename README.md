@@ -1,4 +1,6 @@
 
-# Haikus for Codespaces
+# Remote sensing image classification pre-processing
 
-This is a quick node project template for demoing Codespaces. It is based off of the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
+After achieve the classification feature map, we need to classify every types and generate the corresponding images.
+
+This file intends to generate the binary type images.
