@@ -9,7 +9,7 @@ N=length(gt);
 for i=1:num
     subplot(3,3,i);imshow(gt==i-1);
 end
-imwrite(class_img,'class.tif');
+
 % output images are pngs
 Output_path='D:\work\[code]change_to_gray\';
 for i=1:num
